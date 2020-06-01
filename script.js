@@ -222,7 +222,6 @@ var drink = age >= 18 ? 'beer' : 'juice';
 console.log(drink);
 
 
-*/
 
           /* or 
 if(age >=18){
@@ -231,6 +230,8 @@ if(age >=18){
 else{
     var drink = 'juice';
 }
+
+*/
 
 
 /****** SWITCH STATEMENT**********/
