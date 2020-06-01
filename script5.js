@@ -97,4 +97,4 @@ console.log(Mark);
             console.log('Mark has the highest average which is' + ' ' + this.averageMark);
         }
         
-        
+    
