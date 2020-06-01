@@ -1,7 +1,7 @@
 /*jslint devel: true
 */
 
-/*var firstName = 'John';
+var firstName = 'John';
 console.log(firstName);
 
 var lastName = 'Smith';
@@ -16,10 +16,10 @@ console.log(job);
 job = 'Teacher';
 console.log(job);
 
-*/
+
 
 /***********************************
-variable mutation and type coercion      
+variable mutation and type coercion */     
 
 var firstName = 'Mark';
 var age = 39;  
@@ -43,11 +43,11 @@ alert(firstName + ' is a ' + age + ' years old ' + job + ' .  Is he married ' + 
 var lastName = prompt('what is his last name?');
 console.log(firstName + ' ' + lastName);
 
-*/
+
 
 
 /******************************
-Basic operator
+Basic operator***********/
 
 
 var now, yearJohn, yearMark;
@@ -83,10 +83,10 @@ console.log(typeof 'Mark is older than John');
 var x;
 console.log(typeof x);
 
-*/
+
 
 /************************************
-******  operator precedence   ***
+******  operator precedence   ***/
 
 
 var now = 2020;
@@ -124,36 +124,14 @@ console.log(x);
 x++;
 console.log(x);
 
-*/
 
-/******************************************
-*******CODING CHALLENGE 1  
 
-var weightJohn, weightMark, MassJohn, MassMark;
 
-heightJohn = 1.95;
-MassJohn = 92;
-
-heightMark = 1.69;
-MassMark = 78;
-
-var johnMBIs = MassJohn / (heightJohn * heightJohn);
-console.log(johnMBIs);
-
-var markMBIs = MassMark / ( heightMark * heightMark);
-console.log(markMBIs);
-
-var higherMBIs = markMBIs > johnMBIs ;
-console.log(higherMBIs);
-
-console.log('is John\'s MBIs higher than Mark\'s MBIs ? ' +' ' + higherMBIs );
-
-*/
 
 
 
 /******************************************************
-***********IF/ELSE STATEMENT****
+***********IF/ELSE STATEMENT****/
 
 
 
@@ -180,9 +158,9 @@ else{
     console.log(firstName + ' is ' + civilstatus)
 };
 
-*/
 
-/* from the above challenge 
+
+/* from the above challenge */
 
 var weightJohn, weightMark, MassJohn, MassMark;
 
@@ -205,10 +183,10 @@ else{
      console.log('Mark\'s BMIs is higher than John\'s')
 }
 
-*/
+
 
 /*******************************
-********** BOOLEAN LOGIC******
+********** BOOLEAN LOGIC******/
 
 var middleName = "Ingabire";
 var age = 22;
@@ -226,10 +204,10 @@ else{
     console.log(middleName + ' ' + 'is a woman');
 }
 
-*/
+
 
 /***************************************
-********** THE TERNARY OPERATOR AND SWITCH OPERATOR**
+********** THE TERNARY OPERATOR AND SWITCH OPERATOR**/
 
 
 var lastName = "smith";
@@ -253,9 +231,9 @@ if(age >=18){
 else{
     var drink = 'juice';
 }
-*/
 
-/****** SWITCH STATEMENT**********
+
+/****** SWITCH STATEMENT**********/
 
 var job = "teacher";
 switch (job) {
@@ -292,10 +270,10 @@ switch (true) {
     default:
         console.log(middleName + ' ' + 'is a woman');
 }
-*/
+
 
 /***************************************************
-********* truthy and falsy values and equality operators
+********* truthy and falsy values and equality operators******/
 
 
 //falsy values: undefined,null,0,'', NaN. are considered false when evaluated in if/else statement condition
@@ -311,58 +289,12 @@ if (height || height === 0) {
 else{
     console.log('variable is not defined');
 }
-*/
-
-/************************************************
-** CODING CHALLENGE 2 ****
 
 
-var teamJohn;
-var teamMike;
-
-teamJohn = (89 + 120 + 103) / 3;
-teamMike = (116 + 94 + 123) / 3;
-
-console.log('average score of team john is' + ' ' + teamJohn );
-console.log('average score of team Mike is' + ' ' + teamMike );
-
-if (teamJohn > teamMike) {
-    
-    console.log( 'John\'s team has higher average ' + ' ' + 'which is' + ' ' + teamJohn);
-}
-else if (teamJohn === teamMike){
-    console.log('the two teams have the same average');
-}
-
-else {
-    console.log( 'Mike\'s team has higher average ' + ' ' + 'which is' + ' ' + teamMike);
-}
-
-var teamMary;
-teamMary = (97 + 134 + 105) / 3;
-console.log( 'average score of team Mary is' + ' ' + teamMary);
-
-if (teamJohn > teamMike && teamJohn > teamMary ) {
-    
-    console.log( 'John\'s team has higher average ' + ' ' + 'which is' + ' ' + teamJohn);
-}
-else if (teamJohn === teamMike === teamMary) {
-    console.log('the three teams have the same average');
-}
- 
-else if (teamMike > teamJohn && teamMike > teamMary) {
-    console.log( 'Mike\'s team has higher average ' + ' ' + 'which is' + ' ' + teamMike);
-}
-
-else {
-    console.log( 'Mary\'s team has higher average ' + ' ' + 'which is' + ' ' + teamMary);
-}
-
-*/
 
 
 /******************************************************
-******* FUNCTIONS**********
+******* FUNCTIONS**********/
 
 
 
@@ -400,7 +332,7 @@ yearUntilRetirement ( 1990, 'John');
 yearUntilRetirement ( 1935, 'Jack');
 yearUntilRetirement ( 1998, 'Jeff');
 
-*/
+
 
 /*********************************************************************
                 FUNCTION STATEMENT AND EXPRESSIONS
@@ -414,7 +346,7 @@ yearUntilRetirement ( 1998, 'Jeff');
     
 // FUNCTION EXPRESSION always returns a value while FUNCTION STATEMENT doesn't return a direct vslue.
 
-/*var whatDoYouDo = function ( job, firstName){
+var whatDoYouDo = function ( job, firstName){
     switch(job){
             
         case 'Teacher': 
@@ -434,11 +366,11 @@ console.log(whatDoYouDo( 'Teacher', 'John'));
 console.log(whatDoYouDo( 'Driver', 'Jake'));
 console.log(whatDoYouDo( 'developer', 'Jane'));
 
-*/
+
 
 /*************************************************
 ********* ARRAYS  ******************
-        **********************
+        **********************/
 
 //Initialize new array
 
@@ -476,49 +408,11 @@ console.log(John.indexOf(456));
 var isDesigner = John.indexOf('Designer') === -1 ? 'John is NOT a designer' : 'John IS a designer';
 console.log(isDesigner);
 
-*/
-
-/************************************************
-*********CODING CHALLENGE 3  ************
-***********************
-
-
-function tipcalc (bills){
-    var percentage;
-    
-    if ( bills <= 50){
-        percentage = 0.2;
-    }
-    
-    else if ( bills > 50 && bills <= 200 ){
-        percentage = 0.15;
-    }
-    else {
-        percentage = 0.1;
-    }
-    return percentage * bills;
-    }
-
-console.log(tipcalc(124));
-console.log(tipcalc(48));
-console.log(tipcalc(268));
-
-var bill = [124,48,268];
-var tiparray = [tipcalc(bill[0]),tipcalc(bill[1]),tipcalc(bill[2])];
-console.log(tiparray);
-
-var amount = [bill[0] + tipcalc(bill[0]),bill[1] + tipcalc(bill[1]),bill[2] + tipcalc(bill[2])];
-console.log(amount);
-
-var final = [bill[0] + tiparray[0],bill[1] + tiparray[1],bill[2] + tiparray[2] ];
-console.log(final);                                   
-
-*/
 
 
 
 /****************************************************
-    ************ OBJECTS AND PROPERTIES********
+    ************ OBJECTS AND PROPERTIES********/
 
 //object literal
 var John = {
@@ -557,10 +451,10 @@ Jane.job = 'cleaner';
 Jane['lastName'] = 'Scott';
 console.log(Jane);
 
-*/
+
 
 /**************************************************
-    ************ OBJECTS AND METHODS*******
+    ************ OBJECTS AND METHODS********/
 
 var John = {
     firstName: 'John',
@@ -576,56 +470,13 @@ var John = {
 John.calcAge();
 console.log(John);
 
-*/
-
-/*****************************************************
-    ************ CODING CHALLENGE 4********
-
-var John = {
-    
-    firstName: 'John',
-    mass: 92,
-    height:1.92,
-    JohnBMIcalc: function(mass,height){
-        this.BMIJohn = this.mass / (this.height * this.height);
-        return this.BMIJohn;
-    }
-};
-John.JohnBMIcalc();
-console.log(John);
-
-var Mark = {
-    
-    firstName: 'Mark',
-    mass: 78,
-    height:1.69,
-    MarkBMIcalc: function(mass,height){
-        this.BMIMark = this.mass / (this.height * this.height);
-        return this.BMIMark;
-}
-};
-Mark.MarkBMIcalc();
-console.log(Mark);
-
-if(John.BMIJohn > Mark.BMIMark){
-    console.log(John.firstName + ' '+ 'has' + ' ' +John.BMIJohn + ' ' + 'which is higher BMI than Mark\'s');
-}
-
-else if(Mark.BMIMark > John.BMIJohn){
-    console.log(Mark.firstName+ ' ' + 'has' +' ' + Mark.BMIMark + ' ' + 'which is higher BMI than John\'s');
-}
-
-else{
-    console.log('Both' + ' ' + John.firstName + ' ' + 'and'+ ' ' + Mark.firstName + ' ' + 'has the same BMI ');
-}
-*/ 
 
 
 /******************************************************
 ************ LOOPS AND ITERATION***********************/
 
 // FOR LOOP
-/*
+
 for (var i=1; i<= 20 ; i+=2){
     
     console.log(i);
@@ -664,108 +515,8 @@ for (var i=John.length-1;i>=0;i--){
     console.log(John[i]);
 }
 
-*/
-
-/***************************************************
-************** CODE CHALLENGE 5*/
-
-var John = {
-    
-    fullName: 'John Scoot',
-    bills: [124,48,268,180,42],
-    tipcalc : function (){
-        
-    this.tiparray  = [];
-    this.finalValues = [];
-
- for (i=0; i<this.bills.length;i++){
-        var percentage;
-       var bill = this.bills[i];
-       
-    if ( bill < 50){
-        percentage = .2;
-    }
-    
-    else if (bill >= 50 && bill <= 200 ){
-       percentage = .15;
-    }
-    else {
-        percentage = .1;
-    }
-        this.tiparray[i] =  bill *  percentage ;
-        this.finalValues[i] = bill + bill *  percentage; 
-        
-      }
-},
-    totalTipsJohn : function(){
-        for (var i=0; i<this.tiparray.length;i++){
-            this.tipstotalJohn;
-            this.averageJohn;
-            
-          this.tipstotalJohn = this.tiparray[0] + this.tiparray[1] + this.tiparray[2] + this.tiparray[3] + this.tiparray[4];
-          this.averageJohn = this.tipstotalJohn / 5;
-}
-    }
-}
-John.tipcalc();
-John.totalTipsJohn();       
-console.log(John);
 
 
-
-var Mark = {
-    fullName : 'Mark Ishimwe',
-    billsArray : [77,375,110,45],
-    calcTip : function(){
-        
-      this. TipsArray = [];
-      this. totalPay = []; 
-        
-        for (i=0;i<this.billsArray.length;i++){
-            
-            var percentage;
-            var bill = this.billsArray[i];
-            
-            if( bill < 100){
-                percentage = .2;
-            }
-            
-            else if(bill>=100 && bill<=300){
-                percentage = .1;
-            }
-            else{
-                percentage = .25;
-            }
-    this.TipsArray[i] = bill * percentage;
-    this.totalPay[i] = bill + bill * percentage ;
-     }
-    },
-    
-    totalTipsMark : function(){
-        for (var i=0; i<this.TipsArray.length;i++){
-            this.tipstotalMark;
-            this.averageMark;
-          this.tipstotalMark = this.TipsArray[0] + this.TipsArray[1] + this.TipsArray[2] + this.TipsArray[3];
-          this.averageMark = this.tipstotalMark / 4;
-        }
-    }
-}
-
-Mark.calcTip();
-Mark.totalTipsMark();
-console.log(Mark);
-
-
-        
-    
-        if (this.averageJohn > this.averageMark ){
-            console.log('John has the highest average which is' + ' ' + this.averageJohn);
-        }
-        else {
-            console.log('Mark has the highest average which is' + ' ' + this.averageMark);
-        }
-        
-        
         
         
         
